@@ -38,16 +38,17 @@ header .logo a{
 }
 header .menu{
     float: right;
-    width: 70%;
+    width: 100%;
+    background-color: #d2a521;
 }
 header .menu li{
-    float: right;
-    padding-top: 10px;
+    float: left;
+    padding: 10px;
 }
 header .menu li a{
     font-size: 16px;
-    color: #cbcbcb;
-    margin-left: 30px;
+    font-weight: 700;
+    color: #fff;
     text-transform: uppercase;
 }
 header .menu li a:hover{
