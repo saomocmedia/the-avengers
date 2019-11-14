@@ -31,26 +31,29 @@ header{
 header .logo{
     float: left;
     width: 30%;
+    position: relative;
 }
 header .logo a{
     font-size: 30px;
     color: #565656;
 }
-header .menu{
+.menu{
     float: right;
     width: 100%;
-    background-color: #d2a521;
 }
-header .menu li{
+.menu li{
     float: left;
     padding: 10px;
 }
-header .menu li a{
+.menu li a{
     font-size: 16px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
 }
-header .menu li a:hover{
+.menu li a:hover{
     color: #7b7678;
+}
+.abc{
+    background-color: #d2a521;
 }
