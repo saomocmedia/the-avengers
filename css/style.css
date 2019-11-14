@@ -10,6 +10,14 @@ body{
     font-weight: 400;
     font-family: 'Be Vietnam', sans-serif;
 }
+.bigbox{
+    background-color: white;
+    height: 2700px;
+}
+.boxto{
+    max-width: 100%;
+    height: 172px;
+}
 li{
     list-style: none;
 }
@@ -57,3 +65,135 @@ header .logo a{
 .abc{
     background-color: #d2a521;
 }
+
+/*menu Hiep*/
+.main_pen{
+    background-color: white;
+}
+.pen{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.pen1{
+    max-width: 1200px;
+    height: 410px;
+    margin: 20px;
+    padding-left: 80px;
+}
+.headerpen1, .headerpen2, .headerpen3{
+    max-width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    display: flex;
+}
+a.hinh{
+    font-size: 17px;
+    color: #d2a521;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+    border: 2px solid #e5e5e5;
+    padding: 12px 13px;
+}
+.headerpen1 b{
+    height: 2px;
+    background-color: #e5e5e5;
+    width: 900px;
+    margin-top: 22px;
+}
+.mouse{
+    width: 1200px;
+    height: 350px;
+    padding-top: 30px;
+}
+.mouse1, .mouse2, .mouse3, .mouse4, .mouse5, .mouse6{
+    float: left;
+}
+.mouse2, .mouse3, .mouse4, .mouse5, .mouse6{
+    padding-left: 10px;
+}
+.mouse7, .mouse8{
+    float: left;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+figcaption{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+#price{
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 17px;
+}
+c.buttom{
+    font-size: 13px;
+    color: white;
+    background-color: #ffb400;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.pen2{
+    max-width: 1200px;
+    height: 510px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+.headerpen2 b{
+    height: 2px;
+    background-color: #e5e5e5;
+    width: 860px;
+    margin-top: 22px;
+}
+.pen3{
+    max-width: 1200px;
+    height: 510px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+    padding-left: 80px;
+}
+.headerpen3 b{
+    height: 2px;
+    background-color: #e5e5e5;
+    width: 900px;
+    margin-top: 22px;
+}
+.pen4{
+    max-width: 1200px;
+    height: 410px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -65px;
+    padding-left: 80px;
+}
+.pen5{
+    max-width: 1200px;
+    height: 410px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 80px;
+}
+.pen .khoi{
+    width: 175px;
+    height: 175px;
+    padding: 5px;
+    overflow: hidden;
+}
+.khoi img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.khoi:hover img{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
