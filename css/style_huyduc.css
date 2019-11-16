@@ -336,6 +336,10 @@ header .menu li a:hover{
     float: left;
     margin-right: 22px;
     padding-left: 1px;
+    max-width: 200px;
+    max-height: 200px;
+    margin-top:20px;
+    overflow: hidden;
 }
 .muangay{
     width: 120px;
@@ -362,4 +366,65 @@ header .menu li a:hover{
     color:#c01b1b;
     font-weight:600;
     margin:10px 63px;
+}
+/*HIệu ứng*/
+.sidebar > .box > p > a{
+    color: #ff383a;
+}
+.box2 > .box2con > .box-r > p >a{
+    color: #ff383a;
+}
+.sidebar > .box > p > a:hover{
+    color: #ff0e07;
+    font-size: 23px;
+}
+.box2 > .box2con > .box-r > p >a:hover{
+    color: #ff0e07;
+    font-size:23px;
+}
+.box-r-content > p > a{
+    color: #7d807f;
+}
+.box-r-content > p > a:hover{
+    color: #332b2b;
+}
+.box-r-content > .muahang:hover{
+    background-color: #ff2a23;
+}
+.icon > .datmon:hover{
+    background-color: #ff2a23;
+}
+.icon > .facebook:hover{
+    background-color: #4927ff;
+}
+.icon2 > .tron:hover{
+    background-color: #4927ff;
+}
+#id8:hover{
+    text-decoration: underline;
+}
+#id9:hover{
+    text-decoration: underline;
+}
+.guidi > p >a{
+    color: white;
+}
+.guidi:hover{
+    background-color: #805c51;
+}
+.sanphamcuthe > img:hover{
+    transform:scale(1.15);
+    transition: 1s;
+}
+.sanphamcuthe > .tensanpham > p >a:hover{
+    color: #ff1e08;
+}
+.tensanpham > p >a{
+    color: #ff453a;
+}
+.sanphamcuthe > .muangay > p > a{
+    color: #ffffff;
+}
+.sanphamcuthe >  .muangay:hover{
+    background-color: #cdc80b;
 }
