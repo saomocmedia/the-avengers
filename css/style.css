@@ -34,16 +34,20 @@ a{
 }
 header{
     background-color: #fff;
-    padding: 25px 0;
 }
 header .logo{
     float: left;
     width: 30%;
+    padding: 20px 0;
     position: relative;
 }
 header .logo a{
     font-size: 30px;
     color: #565656;
+}
+.banner-top img{
+    float: left;
+    width: 600px;
 }
 .menu{
     float: right;
@@ -67,7 +71,7 @@ header .logo a{
 }
 /*Tuan Anh build css trang chu*/
 .slider-container{
-  height: 800px;
+  height: 600px;
   width: 100%;
   position: relative;
   overflow: hidden; 
