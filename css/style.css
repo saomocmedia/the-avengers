@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f2f2f2;
+    background-color: #fff;
     color: #a5a5a1;
     font-size: 14px;
     font-weight: 400;
@@ -71,57 +71,141 @@ header .logo a{
 }
 /*Tuan Anh build css trang chu*/
 .slider-container{
-  height: 600px;
-  width: 100%;
-  position: relative;
-  overflow: hidden; 
-  text-align: center;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden; 
+    text-align: center;
 }
 .menu-slide {
-  position: absolute;
-  left: 0;
-  z-index: 900;
-  width: 100%;
-  bottom: 0;
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
 }
 .menu-slide label {
-  cursor: pointer;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  background: #fff;
-  border-radius: 50px;
-  margin: 0 .2em 1em;
-  transition: all .3s ease;
-  &:hover {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 .2em 1em;
+    transition: all .3s ease;
+    &:hover {
     background: red;
-  }
+    }
 }
 .slide {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  z-index: 10;
-  padding: 8em 1em 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  transition: left 0s .75s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s .75s;
 }
 [id^="slide"]:checked + .slide {
-  left: 0;
-  z-index: 100;
-  transition: left .65s ease-out;
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
 }
 .slide-1 {
-  background-image: url("../images/sl1.png");
+    background-image: url("../images/sl1.png");
 }
 .slide-2 {
-  background-image: url("../images/sl2.jpg");
+    background-image: url("../images/sl2.jpg");
 }
 .slide-3 {
-  background-image: url("../images/sl3.png");
+    background-image: url("../images/sl3.png");
+}
+.group-icon{
+    background-color: #d2a521;
+}
+.icon-box{
+    float: left;
+    text-align: center;
+    padding: 40px 0;
+    width: 20%;
+}
+.icon-box img{
+    width: 53px;
+    height: 60px;
+}
+.icon-box figcaption{
+    color: #fff;
+}
+.underline{
+    text-align: center;
+    color: #3a73be;
+    font-size: 18px;
+    padding: 60px 0 30px 0;
+    line-height: 0px;
+}
+.underline img{
+    width: 20%;
+    margin-top: 20px;
+}
+.underline p{
+    color: #333;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.group-banner{
+    float: left;
+    margin-bottom: 50px;
+}
+.group-banner .banner img{
+    float: left;
+    width: 370px;
+    height: 370px;
+    margin: 10px 10px;
+}
+.group-product{
+    background-color: #f3f3f3;
+    padding-bottom: 50px;
+}
+.product{
+    float: left;
+    margin: 10px 10px;
+    text-align: center;
+}
+.product img{
+    width: 272px;
+    height: 272px;
+}
+.product .product-name{
+    color: #1B9E2C;
+}
+.product .price{
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.product a.btn{
+    font-size: 10px;
+    color: #fff;
+    background-color: #FFB400;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+.product a.btn:hover{
+    font-size: 10px;
+    color: #fff;
+    background-color: #d33;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 2px;
 }
 /*menu Hiep*/
 .main_pen{
