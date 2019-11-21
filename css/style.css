@@ -383,6 +383,7 @@ button.hotlineleft {
     border-radius: 10px 0 0 10px;
     box-shadow: 10px 0 30px #888888;
     transition: 0.2s;
+    z-index: 999;
 }
 a.item1, a.item2, a.item3, a.item4{
     display: block;
