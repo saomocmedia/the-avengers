@@ -5,7 +5,7 @@
 }
 body{
     background-color: #fff;
-    color: #a5a5a1;
+    color: #140b24;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Be Vietnam', sans-serif;
@@ -417,4 +417,185 @@ a.item4{
     right: 0;
     transition: 0.2s;
 }
-/* */
+/*layout huy duc*/
+.sidebar{
+    height: 1230px;
+    float: left;
+    padding-right: 5px;
+    border-right: 1px solid #ddc9c9;
+    margin: 40px 0;
+}
+.box{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddc9c9;
+    margin: 5px 0;
+    padding-bottom: 15px;
+}
+#idbox{
+    border-bottom: 1px solid #ddc9c9;
+}
+.box > p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.box2{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.box2 > h1{
+    margin-bottom: 20px;
+}
+.box2con{
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddc9c9;
+    padding:10px 0;
+}
+.box-l{
+    width: 27%;
+    float: left;
+    margin-right: 2px;
+}
+.box-r{
+    width: 72%;
+    float: left;
+}
+.box-r > p >a{
+    font-size: 16px;
+    color: #ff2c28;
+}
+.box-r  h2{
+    font-size: 17px;
+    color: #ff0e09;
+}
+.box3{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.box3 > #id1{
+    font-size: 20px;
+    color:#332b2b;
+    font-weight:600;
+    margin-bottom: 10px;
+}
+.box3 > #id2{
+    font-size: 20px;
+    color:#4f3b3b;
+    margin-bottom: 10px;
+}
+.content{
+    float: left;
+    margin-top:40px;
+    padding: 0;
+}
+.anh{
+    float: left;
+}
+.chuthich{
+    float: left;
+    font-size: 15px;
+    border-bottom: 1px solid #b9def0;
+    padding-bottom: 10px;
+}
+.chuthich > a{
+    font-size: 18px;
+    color: #7b7678;
+}
+#id1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+#id2{
+    font-size: 20px;
+    color: #ff453a;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.boxchuthich{
+    border: 1px solid #b9def0;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+#id3{
+    font-size: 18px;
+    color: #ff453a;
+    font-weight:700;
+}
+.nut{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+.boxicon{
+    float: left;
+    margin-bottom: 10px;
+}
+.icon{
+    float: left;
+    margin-right: 10px;
+    font-size: 35px;
+}
+.iconsao{
+    float: left;
+    margin-right: 15px;
+    font-size: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #b9def0;
+}
+.danhgia{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.khung{
+    border: 1px solid #b9def0;
+    padding: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+#b1{
+    font-size: 20px;
+}
+#b2,#b3{
+    font-size: 17px;
+    font-weight: bold;
+}
+.sanphamcuthe{
+    float: left;
+    margin-right:25px;
+    margin-top: 10px;
+}
+.box > p > a{
+    text-decoration: none;
+    color: #4cae4c;
+}
+.box-r > p> a{
+    text-decoration: none;
+}
+.danhgia a{
+    font-size: 18px;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+.sanphamcuthe p b{
+    color: #ae372f;
+    text-align: center;
+    font-size: 16px;
+}
+.anh:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.box > p a:hover{
+    color: red;
+}
+.box-r a:hover{
+    color: red;
+    font-size: 17px;
+}
