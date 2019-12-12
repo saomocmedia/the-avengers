@@ -74,7 +74,7 @@ header .logo a{
     height: 600px;
     width: 100%;
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
     text-align: center;
 }
 .menu-slide {
@@ -93,9 +93,9 @@ header .logo a{
     border-radius: 50px;
     margin: 0 .2em 1em;
     transition: all .3s ease;
-    &:hover {
-    background: red;
-    }
+&:hover {
+     background: red;
+ }
 }
 .slide {
     width: 100%;
@@ -476,9 +476,6 @@ a.item4{
     margin-top:40px;
     padding: 0;
 }
-.anh{
-    float: left;
-}
 .chuthich{
     float: left;
     font-size: 15px;
@@ -526,12 +523,43 @@ a.item4{
     margin-right: 10px;
     font-size: 35px;
 }
-.iconsao{
+.iconsao1{
     float: left;
     margin-right: 15px;
     font-size: 20px;
     padding-right: 10px;
     border-right: 1px solid #b9def0;
+}
+.iconsao2{
+    float: left;
+    margin-right: 15px;
+    font-size: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #b9def0;
+}
+.iconsao3{
+    float: left;
+    margin-right: 15px;
+    font-size: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #b9def0;
+}
+.iconsao4{
+    float: left;
+    margin-right: 15px;
+    font-size: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #b9def0;
+}
+.iconsao5{
+    float: left;
+    margin-right: 15px;
+    font-size: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #b9def0;
+}
+.glyphicon-star{
+    color: #e2a9b3;
 }
 .danhgia{
     margin-top: 20px;
@@ -550,9 +578,14 @@ a.item4{
     font-size: 17px;
     font-weight: bold;
 }
-.sanphamcuthe{
-    float: left;
-    margin-right:25px;
+.sanphamtuongtu{
+    margin-top: 35px;
+}
+.span{
+    font-size: 18px;
+    color: #ff3837;
+    text-align: center;
+    font-weight: 600;
     margin-top: 10px;
 }
 .box > p > a{
@@ -567,19 +600,19 @@ a.item4{
     color: #3c3c3c;
     font-weight: bold;
 }
-.sanphamcuthe p b{
-    color: #ae372f;
-    text-align: center;
-    font-size: 16px;
-}
-.anh:hover{
-    transition: 1s;
-    transform: scale(1.1);
-}
 .box > p a:hover{
     color: red;
 }
 .box-r a:hover{
     color: red;
     font-size: 17px;
+}
+.anh{
+    max-height:165px;
+    max-width: 165px;
+    overflow: hidden;
+}
+.anh > img:hover{
+    transition: 1s;
+    transform: scale(1.1);
 }
