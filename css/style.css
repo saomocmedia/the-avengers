@@ -613,3 +613,25 @@ a.item4{
     transition: 1s;
     transform: scale(1.1);
 }
+/*css layout tintuc*/
+.layouttintuc{
+    width: 100%;
+}
+.baiviet1{
+    float: left;
+    width: 75%;
+    padding-left: 65px;
+    padding-top: 20px;
+}
+.khungphai {
+    width: 25%;
+    float: right;
+    border-left: 1px solid #ececec;
+    padding-top: 15px;
+}
+a{
+    color: #1B9E2C;
+}
+.diachinha > p{
+    float: left;
+}
