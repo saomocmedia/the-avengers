@@ -208,18 +208,13 @@ header .logo a{
     border-radius: 2px;
 }
 /*menu Hiep*/
-.main_pen{
-    background-color: white;
-}
-.pen{
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
+
+
 .pen1{
-    max-width: 1200px;
+    max-width: 1170px;
     height: 410px;
-    margin: 20px;
-    padding-left: 80px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 .headerpen1, .headerpen2, .headerpen3{
     max-width: 100%;
@@ -242,7 +237,7 @@ a.hinh{
     margin-top: 22px;
 }
 .mouse{
-    width: 1200px;
+    width: 1170px;
     height: 350px;
     padding-top: 30px;
 }
@@ -277,12 +272,10 @@ c.buttom{
     text-transform: uppercase;
 }
 .pen2{
-    max-width: 1200px;
+    max-width: 1170px;
     height: 510px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-    padding-left: 80px;
+    padding-top: 60px;
+    padding-left: 10px;
 }
 .headerpen2 b{
     height: 2px;
@@ -291,12 +284,9 @@ c.buttom{
     margin-top: 22px;
 }
 .pen3{
-    max-width: 1200px;
+    max-width: 1170px;
     height: 510px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: -50px;
-    padding-left: 80px;
+    padding-left: 10px;
 }
 .headerpen3 b{
     height: 2px;
@@ -305,22 +295,16 @@ c.buttom{
     margin-top: 22px;
 }
 .pen4{
-    max-width: 1200px;
+    max-width: 1170px;
     height: 410px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: -65px;
-    padding-left: 80px;
+    padding-left: 10px;
 }
 .pen5{
-    max-width: 1200px;
+    max-width: 1170px;
     height: 410px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    padding-left: 80px;
+    padding-left: 10px;
 }
-.pen .khoi{
+.container .khoi{
     width: 175px;
     height: 175px;
     padding: 5px;
