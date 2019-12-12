@@ -1,0 +1,530 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    color: #a5a5a1;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Be Vietnam', sans-serif;
+}
+header{
+    background-color: #f2f2f2;
+}
+.container{
+    width: 100%;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+li{
+    list-style: none ;
+}
+header .logo{
+    width:30%;
+    float: left;
+}
+header .logo img{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+header .box-middle{
+    width:60%;
+    float: left;
+}
+header .box-middle img{
+    width: 650px;
+    height: 150px;
+}
+header .box-right{
+    width: 10%;
+    float: right;
+    background-color: white;
+}
+header .box-right a img{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+header .menu{
+    background-color: #ff8c00;
+    width: 1250px;
+    float:left;
+    height: 40px;
+}
+header .menu h3 a{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    float: left;
+    margin-left: 60px;
+}
+header .menu li{
+    float: left;
+    padding-top: 5px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+header .menu li a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 15px;
+    margin-left: 30px;
+}
+header .menu .box-right{
+    margin-top: 7px;
+    float: right;
+    background-color: red;
+    width: 200px;
+    margin-right: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+header .menu .box-right p{
+    color: #f2f2f2;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+section .box-1{
+    background-color: white;
+    width: 100%;
+}
+.item p{
+    color: red;
+}
+section .box-1 .box-a{
+    margin-top: 40px;
+    margin-left: 55px;
+}
+section .box-1 .box-a .box-a-1{
+    float: left;
+}
+section .box-1 .box-a .box-a-1 p{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+section .box-1 .box-a .box-a-2 a{
+    color: green;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+section .box-1 .box-b{
+    margin-top: 10px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+section .box-1 .box-b .box-b-1{
+    float: left;
+}
+section .box-1 .box-b .box-b-1 p{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+section .box-1 .box-b .box-b-2 a{
+    color: green;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+section .box-2{
+    background-color: white;
+    width:100%;
+    float: left;
+}
+section .box-2 .box-left{
+    margin-left: 55px;
+    width: 52%;
+    float: left;
+    border-top: 2px solid #f2f2f2;
+}
+section .box-2 .box-left .box-2-1{
+    margin-top: 3px;
+    background-color: white;
+    float: left;
+}
+section .box-2 .box-left .box-2-1 .box{
+    width: 100%;
+}
+section .box-2 .box-left .box-2-1 .box p{
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
+}
+section .box-2 .box-left .box-2-1 .box-a{
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+}
+section .box-2 .box-left .box-2-1 .box-a p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+section .box-2 .box-left .box-2-1 .box-a .box-a-1{
+    margin-top: 10px;
+    height:35px;
+}
+section .box-2 .box-left .box-2-1 .box-a .box-a-1 textarea{
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+section .box-2 .box-left .box-2-1 .box-b{
+    margin-top: 20px;
+    float: right;
+    width: 50%;
+}
+section .box-2 .box-left .box-2-1 .box-b .box-b-1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+section .box-2 .box-left .box-2-1 .box-b .box-b-1 textarea{
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+section .box-2 .box-left .box-2-1 .box-b p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+section .box-2 .box-left .box-2-2{
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+section .box-2 .box-left .box-2-2 .box{
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+}
+section .box-2 .box-left .box-2-2 .box p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+section .box-2 .box-left .box-2-2 .box-a{
+    margin-top: 10px;
+    height: 35px;
+    width: 310px;
+    float: left;
+}
+section .box-2 .box-left .box-2-2 .box-a textarea{
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+section .box-2 .box-left .box-2-3{
+    margin-top: 20px;
+    float: left;
+}
+section .box-2 .box-left .box-2-3 .box{
+    background-color: white;
+    width: 100%;
+    float: left;
+}
+section .box-2 .box-left .box-2-3 .box p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+section .box-2 .box-left .box-2-3 .box-a{
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}
+section .box-2 .box-left .box-2-3 .box-a textarea{
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+section .box-2 .box-left .box-2-4{
+    margin-top: 20px;
+    float: left;
+}
+section .box-2 .box-left .box-2-4 .box{
+    background-color: white;
+    width: 100%;
+}
+section .box-2 .box-left .box-2-4 .box p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+section .box-2 .box-left .box-2-4 .box-a{
+    margin-top: 10px;
+    height: 35px;
+    width: 100%;
+}
+section .box-2 .box-left .box-2-4 .box-a textarea{
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+
+section .box-2 .box-left .box-2-5{
+    margin: 20px;
+    float: left;
+    width: 100%;
+}
+section .box-2 .box-left .box-2-5 label{
+    color: black;
+}
+
+section .box-2 .box-left .box-2-6{
+    margin-top: 20px;
+}
+section .box-2 .box-left .box-2-6 .box{
+    width: 100%;
+}
+section .box-2 .box-left .box-2-6 .box p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+section .box-2 .box-left .box-2-6 .box-a{
+    width: 100%;
+    background-color: white;
+}
+section .box-2 .box-left .box-2-6 .box-a .box-a-1{
+    margin-top: 15px;
+}
+section .box-2 .box-left .box-2-6 .box-a .box-a-1 p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+section .box-2 .box-left .box-2-6 .box-a .box-a-2{
+    margin-top: 10px;
+    padding-bottom: 200px;
+    width: 100%;
+}
+section .box-2 .box-left .box-2-6 .box-a .box-a-2 textarea{
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+section .box-2 .box-right{
+    width: 40%;
+    float: right;
+}
+section .box-2 .box-right .box{
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+section .box-2 .box-right .box .box-middle{
+    margin: 30px;
+    background-color: #f2f2f2;
+}
+section .box-2 .box-right .box .box-middle .box-2-1{
+    width: 100%;
+    background-color: white;
+}
+section .box-2 .box-right .box .box-middle .box-2-1 p{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: black;
+}
+
+section .box-2 .box-right .box .box-middle .box-2-2{
+    width: 100%;
+    background-color: white;
+    height: 35px;
+}
+section .box-2 .box-right .box .box-middle .box-2-2 .box-a{
+    float: left;
+    width: 90%;
+}
+section .box-2 .box-right .box .box-middle .box-2-2 .box-a p{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10px;
+}
+section .box-2 .box-right .box .box-middle .box-2-2 .box-b{
+    float: right;
+    width: 10%;
+}
+section .box-2 .box-right .box .box-middle .box-2-2 .box-b p{
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+    margin-top: 10px;
+}
+section .box-2 .box-right .box .box-middle .box-2-3{
+    margin-top: 3px;
+    width: 100%;
+    background-color: white;
+    height: 40px;
+}
+section .box-2 .box-right .box .box-middle .box-2-3 .box-a{
+    width: 85%;
+    float: left;
+}
+section .box-2 .box-right .box .box-middle .box-2-3 .box-a p{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+}
+section .box-2 .box-right .box .box-middle .box-2-3 .box-b{
+    width: 15%;
+    float: right;
+}
+section .box-2 .box-right .box .box-middle .box-2-3 .box-b p{
+    font-size: 17px;
+    font-weight: 600;
+    color: red;
+    margin-top: 10px;
+    float: right;
+}
+
+section .box-2 .box-right .box .box-middle .box-2-4{
+    margin-top: 2px;
+    width: 100%;
+    background-color: white;
+    height: 40px;
+}
+section .box-2 .box-right .box .box-middle .box-2-4 .box-a{
+    width: 85%;
+    float: left;
+}
+section .box-2 .box-right .box .box-middle .box-2-4 .box-a p{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+}
+section .box-2 .box-right .box .box-middle .box-2-4 .box-b{
+    width: 15%;
+    float: right;
+}
+section .box-2 .box-right .box .box-middle .box-2-4 .box-b p{
+    font-size: 17px;
+    font-weight: 600;
+    color: red;
+    margin-top: 10px;
+    float: right;
+}
+
+section .box-2 .box-right .box .box-middle .box-2-5{
+    margin-top: 2px;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    height: 40px;
+}
+section .box-2 .box-right .box .box-middle .box-2-5 .box-a{
+    width: 85%;
+    float: left;
+}
+section .box-2 .box-right .box .box-middle .box-2-5 .box-a p{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+}
+section .box-2 .box-right .box .box-middle .box-2-5 .box-b{
+    width: 15%;
+    float: right;
+}
+section .box-2 .box-right .box .box-middle .box-2-5 .box-b p{
+    font-size: 17px;
+    font-weight: 600;
+    color: red;
+    margin-top: 10px;
+    float: right;
+}
+
+section .box-2 .box-right .box .box-middle .box-2-6{
+    margin-top: 2px;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    height: 40px;
+}
+section .box-2 .box-right .box .box-middle .box-2-6 .box-a{
+    width: 85%;
+    float: left;
+}
+section .box-2 .box-right .box .box-middle .box-2-6 .box-a p{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+}
+section .box-2 .box-right .box .box-middle .box-2-6 .box-b{
+    width: 15%;
+    float: right;
+}
+section .box-2 .box-right .box .box-middle .box-2-6 .box-b p{
+    font-size: 17px;
+    font-weight: 600;
+    color: red;
+    margin-top: 10px;
+    float: right;
+}
+
+section .box-2 .box-right .box .box-middle .box-2-7{
+    margin-top: 4px;
+    background-color: white;
+    width: 100%;
+}
+section .box-2 .box-right .box .box-middle .box-2-7 .box-a{
+    color: black;
+}
+section .box-2 .box-right .box .box-middle .box-2-7  .box-b {
+    color: black;
+}
+
+section .container-1{
+    background-color: orange;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+section .container-1 .box{
+    margin-left: 500px;
+}
+section .container-1 .box p{
+    color: white;
+}
+
+
+section .box-2 .box-right .box .box-middle .box-2-8{
+    background-color: white;
+}
+
+section .box-2 .box-right .box .box-middle .box-2-8 .box-a label{
+    color: black;
+}
+section .box-2 .box-right .box .box-middle .box-2-8 .box-b a{
+    color: black;
+}
+
+section .box-2 .box-right .box .box-middle .box-2-9{
+    width: 100%;
+    background-color: white;
+}
+section .box-2 .box-right .box .box-middle .box-2-9 .box-a{
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    background-color: red;
+    width: 110px;
+}
+section .box-2 .box-right .box .box-middle .box-2-9 .box-a p{
+    color: white;
+}
+

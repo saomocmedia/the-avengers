@@ -4,584 +4,481 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #fff;
-    color: #140b24;
+    background-color: #f2f2f2;
+    color: #a5a5a1;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Be Vietnam', sans-serif;
 }
-.bigbox{
-    background-color: white;
-    height: 2700px;
+header{
+    background-color: #f2f2f2;
 }
-.boxto{
-    max-width: 100%;
-    height: 172px;
+.container{
+    width: 100%;
+    background-color: #ffffff;
+    float: left;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
 }
 li{
     list-style: none;
 }
-a{
-    text-decoration: none;
-}
-.section{
-    float: left;
-    width: 100%;
-}
-.container{
-    width: 1170px;
-    margin: 0 auto;
-}
-header{
-    background-color: #fff;
+.content{
+    padding: 20px;
 }
 header .logo{
+    width:30%;
     float: left;
-    width: 30%;
-    padding: 20px 0;
-    position: relative;
 }
-header .logo a{
-    font-size: 30px;
-    color: #565656;
+header .logo img{
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
-.banner-top img{
+header .box-middle{
+    width:60%;
     float: left;
-    width: 600px;
 }
-.menu{
+header .box-middle img{
+    width: 650px;
+    height: 150px;
+}
+header .box-right{
+    width: 10%;
     float: right;
-    width: 100%;
+    background-color: white;
 }
-.menu li{
+header .box-right a img{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+header .menu{
+    background-color: #ff8c00;
+    width: 1250px;
+    float:left;
+    height: 40px;
+}
+header .menu h3 a{
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
     float: left;
-    padding: 10px;
+    margin-left: 60px;
 }
-.menu li a{
-    font-size: 16px;
+header .menu li{
+    float: left;
+    padding-top: 5px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+header .menu li a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 15px;
+    margin-left: 30px;
+}
+header .menu .box-right{
+    margin-top: 7px;
+    float: right;
+    background-color: red;
+    width: 200px;
+    margin-right: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+header .menu .box-right p{
+    color: #f2f2f2;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+section{
+    background-color: #ffffff;
+    float: left;
+}
+section .container{
+    width: 100%;
+    float: left;
+}
+section .container .box-left{
+    width: 60%;
+    background-color: white;
+    float: left;
+    border-right: 2px solid #f2f2f2;
+}
+section .box-left .box-middle{
+    margin: 40px 40px 40px 55px ;
+    background-color: #f2f2f2;
+    height: 550px;
+}
+section .box-left .box-middle .box-1{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+}
+section .box-left .box-middle .box-1 .box-a{
+    width: 50%;
+    float: left;
+    background-color: white;
+}
+section .box-left .box-middle .box-1 .box-a p{
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+section .box-left .box-middle .box-1 .box-b {
+    width: 50%;
+    float: right;
+    background-color: white;
+}
+section .box-left .box-middle .box-1 .box-b li{
+    float: left;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+section .box-left .box-middle .box-2{
+    width: 100%;
+    background-color: white;
+    margin-top: 3px;
+    float: left;
+    height: 120px;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-a{
+    margin-top: 3px;
+    width: 50%;
+    float: left;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-a .box-a-1 img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    float: right;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-a .box-a-2{
+    width:220px;
+    float: right;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-a .box-a-2 p{
+    color: green;
+    margin-top: 55px;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-a .box-a-1{
+    width: 100px;
+    float: left;
+    height: 120px;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-b{
+    width: 50%;
+    float: right;
+    height: 120px;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-b .box-b-1{
+    width: 25%;
+    float:left;
+    height: 120px;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-b .box-b-1 p{
+    color: red;
+    font-size: 17px;
     font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
+    margin-top: 55px;
 }
-.menu li a:hover{
-    color: #7b7678;
-}
-.abc{
-    background-color: #d2a521;
-}
-/*Tuan Anh build css trang chu*/
-.slider-container{
-    height: 600px;
-    width: 100%;
-    position: relative;
-    overflow: hidden; 
-    text-align: center;
-}
-.menu-slide {
-    position: absolute;
-    left: 0;
-    z-index: 900;
-    width: 100%;
-    bottom: 0;
-}
-.menu-slide label {
-    cursor: pointer;
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background: #fff;
-    border-radius: 50px;
-    margin: 0 .2em 1em;
-    transition: all .3s ease;
-    &:hover {
-    background: red;
-    }
-}
-.slide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    z-index: 10;
-    padding: 8em 1em 0;
-    background-size: cover;
-    background-position: 50% 50%;
-    transition: left 0s .75s;
-}
-[id^="slide"]:checked + .slide {
-    left: 0;
-    z-index: 100;
-    transition: left .65s ease-out;
-}
-.slide-1 {
-    background-image: url("../images/sl1.png");
-}
-.slide-2 {
-    background-image: url("../images/sl2.jpg");
-}
-.slide-3 {
-    background-image: url("../images/sl3.png");
-}
-.group-icon{
-    background-color: #d2a521;
-}
-.icon-box{
+section .box-left .box-middle .box-2 .box-2-1 .box-b .box-b-2{
+    width: 45%;
     float: left;
-    text-align: center;
-    padding: 40px 0;
-    width: 20%;
+    height: 120px;
 }
-.icon-box img{
-    width: 53px;
+section .box-left .box-middle .box-2 .box-2-1 .box-b .box-b-2 input{
+    margin-top: 55px;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-b .box-b-3{
+    width: 30%;
+    float: right;
+    height: 120px;
+}
+section .box-left .box-middle .box-2 .box-2-1 .box-b .box-b-3 p{
+    color: red;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 55px;
+}
+
+section .box-left .box-middle .box-3{
+    margin-top: 1px;
+    height: 30px;
+    float: left;
+}
+section .box-left .box-middle .box-3 .box{
+    float: left;
+}
+section .box-left .box-middle .box-3 .box .box-a{
+    float:left;
+    background-color: white;
+    width: 663px;
     height: 60px;
 }
-.icon-box figcaption{
-    color: #fff;
-}
-.underline{
-    text-align: center;
-    color: #3a73be;
-    font-size: 18px;
-    padding: 60px 0 30px 0;
-    line-height: 0px;
-}
-.underline img{
-    width: 20%;
-    margin-top: 20px;
-}
-.underline p{
-    color: #333;
-    margin-top: 30px;
-    font-size: 14px;
-}
-.group-banner{
+section .box-left .box-middle .box-3 .box .box-a .box-a-1{
+    padding-top: 10px;
+    border: 2px solid green;
+    height: 40px;
+    width: 250px;
     float: left;
-    margin-bottom: 50px;
-}
-.group-banner .banner img{
-    float: left;
-    width: 370px;
-    height: 370px;
-    margin: 10px 10px;
-}
-.group-product{
-    background-color: #f3f3f3;
-    padding-bottom: 50px;
-}
-.product{
-    float: left;
-    margin: 10px 10px;
-    text-align: center;
-}
-.product img{
-    width: 272px;
-    height: 272px;
-}
-.product .product-name{
-    color: #1B9E2C;
-}
-.product .price{
-    color: #ff0000;
-    font-weight: 700;
-    font-size: 17px;
-    margin-bottom: 10px;
-}
-.product a.btn{
-    font-size: 10px;
-    color: #fff;
-    background-color: #FFB400;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 5px 15px;
     margin-top: 10px;
-    border-radius: 2px;
 }
-.product a.btn:hover{
-    font-size: 10px;
-    color: #fff;
-    background-color: #d33;
-    text-transform: uppercase;
+section .box-left .box-middle .box-3 .box .box-a .box-a-1 a{
     text-decoration: none;
-    padding: 5px 15px;
+    color: green;
+    margin-top: 7px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+section .box-left .box-middle .box-3 .box .box-a .box-a-2{
+    float: left;
     margin-top: 10px;
-    border-radius: 2px;
-}
-/*menu Hiep*/
-
-
-.pen1{
-    max-width: 1170px;
-    height: 410px;
-    padding-top: 40px;
-    padding-left: 10px;
-}
-.headerpen1, .headerpen2, .headerpen3{
-    max-width: 100%;
-    height: 50px;
-    text-transform: uppercase;
-    display: flex;
-}
-a.hinh{
-    font-size: 17px;
-    color: #d2a521;
-    font-weight: bold;
-    font-family: Roboto, sans-serif;
-    border: 2px solid #e5e5e5;
-    padding: 12px 13px;
-}
-.headerpen1 b{
-    height: 2px;
-    background-color: #e5e5e5;
-    width: 900px;
-    margin-top: 22px;
-}
-.mouse{
-    width: 1170px;
-    height: 350px;
-    padding-top: 30px;
-}
-.mouse1, .mouse2, .mouse3, .mouse4, .mouse5, .mouse6{
-    float: left;
-}
-.mouse2, .mouse3, .mouse4, .mouse5, .mouse6{
-    padding-left: 10px;
-}
-.mouse7, .mouse8{
-    float: left;
-    padding-top: 30px;
-    padding-left: 10px;
-}
-figcaption{
-    text-align: center;
-    font-size: 16px;
-    padding-top: 5px;
-    font-weight: bold;
-}
-#price{
-    color: #ff0000;
-    font-weight: bold;
-    font-size: 17px;
-}
-c.buttom{
-    font-size: 13px;
-    color: white;
-    background-color: #ffb400;
-    padding: 10px 10px;
+    background-color: #ff8c00;
+    margin-left: 20px;
     border-radius: 5px;
-    text-transform: uppercase;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
 }
-.pen2{
-    max-width: 1170px;
-    height: 510px;
-    padding-top: 60px;
-    padding-left: 10px;
+section .box-left .box-middle .box-3 .box .box-a .box-a-2 a{
+    text-decoration: none;
+    color: #f2f2f2;
+    margin-left: 20px;
+    font-weight: 600;
 }
-.headerpen2 b{
-    height: 2px;
-    background-color: #e5e5e5;
-    width: 860px;
-    margin-top: 22px;
-}
-.pen3{
-    max-width: 1170px;
-    height: 510px;
-    padding-left: 10px;
-}
-.headerpen3 b{
-    height: 2px;
-    background-color: #e5e5e5;
-    width: 900px;
-    margin-top: 22px;
-}
-.pen4{
-    max-width: 1170px;
-    height: 410px;
-    padding-left: 10px;
-}
-.pen5{
-    max-width: 1170px;
-    height: 410px;
-    padding-left: 10px;
-}
-.container .khoi{
-    width: 175px;
-    height: 175px;
-    padding: 5px;
-    overflow: hidden;
-}
-.khoi img{
+section .box-left .box-middle .box-3 .box .box-b{
+    background-color: white;
     width: 100%;
-    height: 100%;
-    transition: 0.5s;
-    border: 1px solid white;
+    float: left;
+
+}
+section .box-left .box-middle .box-3 .box .box-b h3{
+    color: black;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+}
+section .box-left .box-middle .box-3 .box .box-c{
+    float: left;
+    background-color: white;
+    width: 100%;
+}
+section .box-left .box-middle .box-3 .box .box-c .box-c-1{
+    float: left;
+    width: 100%;
+}
+section .box-left .box-middle .box-3 .box .box-c .box-c-1 figure{
+    width: 150px;
+    background-color: #ffffff;
+}
+section .box-left .box-middle .box-3 .box .box-c .box-c-1 img{
+    width: 150px;
+    height: 150px;
+}
+section .box-left .box-middle .box-3 .box .box-c .box-c-1 figcaption{
+    color: green;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 7px;
+    text-align: center;
+}
+section .box-left .box-middle .box-3 .box .box-c .box-c-2{
+    width: 100%;
+    background-color: white;
+}
+section .box-left .box-middle .box-3 .box .box-c .box-c-2 p{
+    color: red;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 17px;
+}
+section .box-left .box-middle .box-3 .box .box-d{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    float: left;
+}
+section .box-left .box-middle .box-3 .box .box-d .box-d-1{
+    width: 95px;
+    height: 30px;
+    background-color: orange;
     border-radius: 5px;
+    margin-left: 35px;
+    padding-top: 5px;
 }
-.khoi:hover img{
-    transform: scale(1.2);
-    transition: 0.5s;
-}
-/* phan nay la ve chat facebook +hotline ben trai */
-.contactleft{
-    position: fixed;
-    left: 20px;
-    z-index: 99999;
-    bottom: 40px;
-}
-button.chatface {
+section .box-left .box-middle .box-3 .box .box-d .box-d-1 a{
+    text-decoration: none;
     color: white;
-    background-color: #125c9e;
-    border-radius: 20px;
-    padding: 10px 16px;
-    margin: 6px;
-    display: block;
-    border: 0.3px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
-.chatface a{
-    color: white;
-    font-size: 15px;
-    font-weight: normal;
+
+
+
+
+section .container .box-right{
+    float: right;
+    background-color: #ffffff;
+    width: 40%;
+    margin-top: 25px;
+    padding-left: 2px;
 }
-button.hotlineleft {
-    color: white;
-    background-color: #d11a59;
-    border-radius: 20px;
-    border: 0.3px;
-    padding: 10px 16px;
-    display: block;
-    margin: 6px;
+section .box-right .box{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+    background-color: #f2f2f2;
+    height: 385px;
 }
-.hotlineleft a{
-    color: white;
-    font-size: 15px;
-    font-weight: normal;
+section .box-right .box .box-1{
+    height: 25px;
+    margin-top: 20px;
+    background-color: #ffffff;
 }
-/*phan nay ve tab ben phai */
-.contactright{
-    position: fixed;
-    top: 150px;
-    right: -208px;
-    width: auto;
-    background: white;
-    padding: 10px;
-    border-radius: 10px 0 0 10px;
-    box-shadow: 10px 0 30px #888888;
-    transition: 0.2s;
-    z-index: 999;
-}
-a.item1, a.item2, a.item3, a.item4{
-    display: block;
-    padding: 13px 10px 13px 47px;
+section .box-right .box .box-1 h3{
+    font-weight: 700;
     color: black;
 }
-a.item1{
-    background-image: url("../images/icon-sale.png");
-    background-repeat: no-repeat;
-    background-position: left;
+section .box-right .box .box-2{
+    background-color: #ffffff;
+    margin-top: 3px;
+    height: 50px;
 }
-a.item2{
-    background-image: url("../images/icon-menu.png");
-    background-repeat: no-repeat;
-    background-position: left;
+section .box-right .box .box-2 .box-a{
+    float:left;
+    width: 60%;
 }
-a.item3{
-    background-image: url("../images/icon-store.png");
-    background-repeat: no-repeat;
-    background-position: left;
+section .box-right .box .box-2 .box-a p{
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
 }
-a.item4{
-    background-image: url("../images/icon-hop-tac.png");
-    background-repeat: no-repeat;
-    background-position: left;
+section .box-right .box .box-2 .box-b{
+    width: 40%;
+    float:right;
 }
-.contactright a:hover{
-    color: dodgerblue;
+section .box-right .box .box-2 .box-b p{
+    color: red;
+    font-weight: 500;
+    margin-top: 20px;
+    float: right;
 }
-.contactright:hover{
-    right: 0;
-    transition: 0.2s;
+
+section .box-right .box .box-3{
+    background-color: #ffffff;
+    margin-top: 3px;
+    height: 50px;
 }
-/*layout huy duc*/
-.sidebar{
-    height: 1230px;
+section .box-right .box .box-3 .box-a{
+    float:left;
+    width: 60%;
+}
+section .box-right .box .box-3 .box-a p{
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+}
+section .box-right .box .box-3 .box-b{
+    width: 40%;
+    float:right;
+}
+section .box-right .box .box-3 .box-b p{
+    color: red;
+    font-weight: 500;
+    margin-top: 20px;
+    float: right;
+}
+
+section .box-right .box .box-4{
+    margin-top: 3px;
+    background-color: white;
     float: left;
-    padding-right: 5px;
-    border-right: 1px solid #ddc9c9;
-    margin: 40px 0;
+    width:100%;
 }
-.box{
-    float: left;
-    width: 100%;
-    border-bottom: 1px solid #ddc9c9;
-    margin: 5px 0;
-    padding-bottom: 15px;
-}
-#idbox{
-    border-bottom: 1px solid #ddc9c9;
-}
-.box > p{
-    font-size: 20px;
-    padding: 10px 0;
-}
-.box2{
-    width: 100%;
-    float: left;
+section .box-right .box .box-4 .box-4-1{
+    background-color: red;
+    height: 40px;
+    border-radius: 5px;
     margin-top: 40px;
+    padding-top: 10px;
 }
-.box2 > h1{
-    margin-bottom: 20px;
-}
-.box2con{
-    width: 100%;
-    float: left;
-    margin-bottom: 5px;
-    border-bottom: 1px solid #ddc9c9;
-    padding:10px 0;
-}
-.box-l{
-    width: 27%;
-    float: left;
-    margin-right: 2px;
-}
-.box-r{
-    width: 72%;
-    float: left;
-}
-.box-r > p >a{
-    font-size: 16px;
-    color: #ff2c28;
-}
-.box-r  h2{
-    font-size: 17px;
-    color: #ff0e09;
-}
-.box3{
-    width: 100%;
-    float: left;
-    margin-top: 20px;
-}
-.box3 > #id1{
+section .box-right .box .box-4 .box-4-1 a{
+    color: #f2f2f2;
+    text-decoration: none;
     font-size: 20px;
-    color:#332b2b;
-    font-weight:600;
-    margin-bottom: 10px;
+    font-weight: 500;
+    margin-left: 130px;
 }
-.box3 > #id2{
-    font-size: 20px;
-    color:#4f3b3b;
-    margin-bottom: 10px;
-}
-.content{
+
+section .box-right .box .box-5{
+    background-color: white;
     float: left;
-    margin-top:40px;
-    padding: 0;
+    width: 100%;
 }
-.chuthich{
+section .box-right .box .box-5 .box-5-1{
+    background-color: white;
+    height: 50px;
     float: left;
+    width: 100%;
+}
+section .box-right .box .box-5 .box-5-1 h3{
+    color: black;
     font-size: 15px;
-    border-bottom: 1px solid #b9def0;
+    margin-top: 30px;
+}
+
+section .box-right .box .box-6{
+    background-color: #ffffff;
+    margin-top: 3px;
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+section .box-right .box .box-6 .box-6-1{
+    border-radius: 5px;
+    height:40px;
+    border: 1px solid orange;
+    margin-top: 15px;
+}
+section .box-right .box .box-6 .box-6-1 p{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+section .box-right .box .box-7{
+    background-color: white;
+    float: left;
+    width: 100%;
+    height: 60px;
+}
+section .box-right .box .box-7 .box-7-1{
+    height:40px;
+    border: 1px solid #a5a5a1;
+    margin-top: 15px;
+}
+section .box-right .box .box-7 .box-7-1 p{
+    margin-top: 7px;
+    margin-left: 200px;
+    font-weight: 600;
+}
+
+section .container-1{
+    background-color: orange;
+    width: 100%;
+    padding-top: 10px;
     padding-bottom: 10px;
-}
-.chuthich > a{
-    font-size: 18px;
-    color: #7b7678;
-}
-#id1{
-    font-size: 30px;
-    font-weight: 600;
-    color: #3c3c3c;
-}
-#id2{
-    font-size: 20px;
-    color: #ff453a;
-    margin-top: 10px;
-    font-weight: bolder;
-}
-.boxchuthich{
-    border: 1px solid #b9def0;
-    border-radius: 6px;
-    margin-top: 10px;
-    font-size: 15px;
-    padding: 5px;
-}
-#id3{
-    font-size: 18px;
-    color: #ff453a;
-    font-weight:700;
-}
-.nut{
-    margin-top: 10px;
     float: left;
-    width: 100%;
 }
-.boxicon{
-    float: left;
-    margin-bottom: 10px;
+section .container-1 .box{
+    margin-left: 500px;
 }
-.icon{
-    float: left;
-    margin-right: 10px;
-    font-size: 35px;
-}
-.iconsao{
-    float: left;
-    margin-right: 15px;
-    font-size: 20px;
-    padding-right: 10px;
-    border-right: 1px solid #b9def0;
-}
-.danhgia{
-    margin-top: 20px;
-    font-size: 18px;
-}
-.khung{
-    border: 1px solid #b9def0;
-    padding: 20px;
-    margin-left: 15px;
-    margin-bottom: 20px;
-}
-#b1{
-    font-size: 20px;
-}
-#b2,#b3{
-    font-size: 17px;
-    font-weight: bold;
-}
-.sanphamtuongtu{
-    margin-top: 35px;
-}
-.span{
-    font-size: 18px;
-    color: #ff3837;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 10px;
-}
-.box > p > a{
-    text-decoration: none;
-    color: #4cae4c;
-}
-.box-r > p> a{
-    text-decoration: none;
-}
-.danhgia a{
-    font-size: 18px;
-    color: #3c3c3c;
-    font-weight: bold;
-}
-.box > p a:hover{
-    color: red;
-}
-.box-r a:hover{
-    color: red;
-    font-size: 17px;
-}
-.anh{
-    max-height:165px;
-    max-width: 165px;
-    overflow: hidden;
-}
-.anh > img:hover{
-    transition: 1s;
-    transform: scale(1.1);
+section .container-1 .box p{
+    color: white;
 }
