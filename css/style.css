@@ -208,13 +208,8 @@ header .logo a{
     border-radius: 2px;
 }
 /*menu Hiep*/
-.main_pen{
-    background-color: white;
-}
-.pen{
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
+
+
 .pen1{
     max-width: 1200px;
     height: 410px;
@@ -320,7 +315,7 @@ c.buttom{
     margin-top: 20px;
     padding-left: 80px;
 }
-.pen .khoi{
+.container .khoi{
     width: 175px;
     height: 175px;
     padding: 5px;
