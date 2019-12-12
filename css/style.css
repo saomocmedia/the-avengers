@@ -492,9 +492,6 @@ a.item4{
     margin-top:40px;
     padding: 0;
 }
-.anh{
-    float: left;
-}
 .chuthich{
     float: left;
     font-size: 15px;
@@ -566,9 +563,14 @@ a.item4{
     font-size: 17px;
     font-weight: bold;
 }
-.sanphamcuthe{
-    float: left;
-    margin-right:25px;
+.sanphamtuongtu{
+    margin-top: 35px;
+}
+.span{
+    font-size: 18px;
+    color: #ff3837;
+    text-align: center;
+    font-weight: 600;
     margin-top: 10px;
 }
 .box > p > a{
@@ -583,19 +585,19 @@ a.item4{
     color: #3c3c3c;
     font-weight: bold;
 }
-.sanphamcuthe p b{
-    color: #ae372f;
-    text-align: center;
-    font-size: 16px;
-}
-.anh:hover{
-    transition: 1s;
-    transform: scale(1.1);
-}
 .box > p a:hover{
     color: red;
 }
 .box-r a:hover{
     color: red;
     font-size: 17px;
+}
+.anh{
+    max-height:165px;
+    max-width: 165px;
+    overflow: hidden;
+}
+.anh > img:hover{
+    transition: 1s;
+    transform: scale(1.1);
 }
