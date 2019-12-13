@@ -613,6 +613,10 @@ a.item4{
 a{
     color: #1B9E2C;
 }
-.diachinha > p{
+.layoutblog{
+    width: 100%;
+}
+.tintucsukien{
     float: left;
+    width: 75%;
 }
