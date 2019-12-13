@@ -10,7 +10,14 @@ body{
     font-weight: 400;
     font-family: 'Be Vietnam', sans-serif;
 }
-
+.bigbox{
+    background-color: white;
+    height: 2700px;
+}
+.boxto{
+    max-width: 100%;
+    height: 172px;
+}
 li{
     list-style: none;
 }
@@ -67,7 +74,7 @@ header .logo a{
     height: 600px;
     width: 100%;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
     text-align: center;
 }
 .menu-slide {
@@ -86,9 +93,9 @@ header .logo a{
     border-radius: 50px;
     margin: 0 .2em 1em;
     transition: all .3s ease;
-&:hover {
-     background: red;
- }
+    &:hover {
+    background: red;
+    }
 }
 .slide {
     width: 100%;
@@ -201,11 +208,13 @@ header .logo a{
     border-radius: 2px;
 }
 /*menu Hiep*/
+
+
 .pen1{
-    max-width: 1170px;
+    max-width: 1200px;
     height: 410px;
-    padding-top: 40px;
-    padding-left: 10px;
+    margin: 20px;
+    padding-left: 80px;
 }
 .headerpen1, .headerpen2, .headerpen3{
     max-width: 100%;
@@ -224,11 +233,11 @@ a.hinh{
 .headerpen1 b{
     height: 2px;
     background-color: #e5e5e5;
-    width: 920px;
+    width: 900px;
     margin-top: 22px;
 }
 .mouse{
-    width: 1170px;
+    width: 1200px;
     height: 350px;
     padding-top: 30px;
 }
@@ -263,10 +272,12 @@ c.buttom{
     text-transform: uppercase;
 }
 .pen2{
-    max-width: 1170px;
+    max-width: 1200px;
     height: 510px;
-    padding-top: 60px;
-    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-left: 80px;
 }
 .headerpen2 b{
     height: 2px;
@@ -275,9 +286,12 @@ c.buttom{
     margin-top: 22px;
 }
 .pen3{
-    max-width: 1170px;
+    max-width: 1200px;
     height: 510px;
-    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+    padding-left: 80px;
 }
 .headerpen3 b{
     height: 2px;
@@ -286,24 +300,30 @@ c.buttom{
     margin-top: 22px;
 }
 .pen4{
-    max-width: 1170px;
+    max-width: 1200px;
     height: 410px;
-    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -65px;
+    padding-left: 80px;
 }
 .pen5{
-    max-width: 1170px;
+    max-width: 1200px;
     height: 410px;
-    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-left: 80px;
 }
 .container .khoi{
-    max-width: 175px;
-    max-height: 175px;
-    overflow: hidden;
-    margin-right: 10px;
-}
-.khoi img{
     width: 175px;
     height: 175px;
+    padding: 5px;
+    overflow: hidden;
+}
+.khoi img{
+    width: 100%;
+    height: 100%;
     transition: 0.5s;
     border: 1px solid white;
     border-radius: 5px;
@@ -393,7 +413,6 @@ a.item4{
     transition: 0.2s;
 }
 /*layout huy duc*/
-
 .sidebar{
     height: 1230px;
     float: left;
@@ -468,6 +487,9 @@ a.item4{
     margin-top:40px;
     padding: 0;
 }
+.anh{
+    float: left;
+}
 .chuthich{
     float: left;
     font-size: 15px;
@@ -515,43 +537,12 @@ a.item4{
     margin-right: 10px;
     font-size: 35px;
 }
-.iconsao1{
+.iconsao{
     float: left;
     margin-right: 15px;
     font-size: 20px;
     padding-right: 10px;
     border-right: 1px solid #b9def0;
-}
-.iconsao2{
-    float: left;
-    margin-right: 15px;
-    font-size: 20px;
-    padding-right: 10px;
-    border-right: 1px solid #b9def0;
-}
-.iconsao3{
-    float: left;
-    margin-right: 15px;
-    font-size: 20px;
-    padding-right: 10px;
-    border-right: 1px solid #b9def0;
-}
-.iconsao4{
-    float: left;
-    margin-right: 15px;
-    font-size: 20px;
-    padding-right: 10px;
-    border-right: 1px solid #b9def0;
-}
-.iconsao5{
-    float: left;
-    margin-right: 15px;
-    font-size: 20px;
-    padding-right: 10px;
-    border-right: 1px solid #b9def0;
-}
-.glyphicon-star{
-    color: #e2a9b3;
 }
 .danhgia{
     margin-top: 20px;
@@ -570,14 +561,9 @@ a.item4{
     font-size: 17px;
     font-weight: bold;
 }
-.sanphamtuongtu{
-    margin-top: 35px;
-}
-.span{
-    font-size: 18px;
-    color: #ff3837;
-    text-align: center;
-    font-weight: 600;
+.sanphamcuthe{
+    float: left;
+    margin-right:25px;
     margin-top: 10px;
 }
 .box > p > a{
@@ -592,26 +578,21 @@ a.item4{
     color: #3c3c3c;
     font-weight: bold;
 }
+.sanphamcuthe p b{
+    color: #ae372f;
+    text-align: center;
+    font-size: 16px;
+}
+.anh:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
 .box > p a:hover{
     color: red;
 }
 .box-r a:hover{
     color: red;
     font-size: 17px;
-}
-.anh{
-    max-height:165px;
-    max-width: 165px;
-    overflow: hidden;
-}
-.sotien{
-    font-size: 16px;
-    color: #ff383a;
-    font-weight: bolder;
-}
-.anh > img:hover{
-    transition: 1s;
-    transform: scale(1.1);
 }
 /*css layout tintuc*/
 .layouttintuc{
