@@ -260,6 +260,11 @@ figure a:hover{
     transform: scale(1.2);
     transition: 0.5s;
 }
+.mouse1:hover img,.mouse2:hover img,.mouse3:hover img,.mouse4:hover img,.mouse5:hover img,.mouse6:hover img,.mouse7:hover img,.mouse8:hover img{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
 /* phan nay la ve chat facebook +hotline ben trai */
 .contactleft{
     position: fixed;
