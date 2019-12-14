@@ -13,9 +13,6 @@ body{
 li{
     list-style: none;
 }
-a{
-    text-decoration: none;
-}
 .section{
     float: left;
     width: 100%;
@@ -36,6 +33,42 @@ header .logo{
 header .logo a{
     font-size: 30px;
     color: #565656;
+}
+footer.footer{
+    padding: 80px 0;
+    background-color: #0f0f0f;
+}
+.icon-footer{
+    font-size: 48px;
+    margin-right: 5px;
+}
+.title-footer{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff8c00;
+}
+.icon-footer a{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #999;
+}
+.icon-footer a:hover{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #ff8c00;
+}
+.link-footer a{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #999;
+}
+.link-footer a:hover{
+    tlinkext-decoration: none;
+    transition: 300ms all ;
+    color: #ff8c00;
+}
+.info-footer{
+    color: #999;
 }
 .banner-top img{
     float: left;
