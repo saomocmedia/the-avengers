@@ -179,6 +179,7 @@ a.hinh{
 }
 .mouse1, .mouse2, .mouse3, .mouse4, .mouse5, .mouse6{
     float: left;
+    text-align: center;
 }
 .mouse2, .mouse3, .mouse4, .mouse5, .mouse6{
     padding-left: 10px;
@@ -187,25 +188,22 @@ a.hinh{
     float: left;
     padding-top: 30px;
     padding-left: 10px;
+    text-align: center;
 }
-figcaption{
+.pen1 figcaption, .pen2 figcaption, .pen3 figcaption, .pen4 figcaption, .pen5 figcaption{
     text-align: center;
     font-size: 16px;
     padding-top: 5px;
     font-weight: bold;
 }
+figure a:hover{
+    text-decoration: none;
+    color: goldenrod;
+}
 #price{
     color: #ff0000;
     font-weight: bold;
     font-size: 17px;
-}
-c.buttom{
-    font-size: 13px;
-    color: white;
-    background-color: #ffb400;
-    padding: 10px 10px;
-    border-radius: 5px;
-    text-transform: uppercase;
 }
 .pen2{
     max-width: 1170px;
@@ -238,6 +236,12 @@ c.buttom{
     max-width: 1170px;
     height: 410px;
     padding-top: 30px;
+}
+.mouse .btn{
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .container .khoi{
     max-width: 175px;
@@ -331,6 +335,7 @@ a.item4{
 }
 .contactright a:hover{
     color: dodgerblue;
+    text-decoration: none;
 }
 .contactright:hover{
     right: 0;
