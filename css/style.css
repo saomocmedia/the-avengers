@@ -544,9 +544,13 @@ a.item4{
     border-left: 1px solid #ececec;
     padding-top: 15px;
 }
+.khungphai >.box > a:hover{
+    color: saddlebrown;
+}
 a{
     color: #1B9E2C;
 }
+/*lay out blog*/
 .layoutblog{
     width: 100%;
 }
@@ -554,3 +558,66 @@ a{
     float: left;
     width: 75%;
 }
+.khunganh{
+    float: left;
+    margin: 15px;
+    padding-left: 30px;
+}
+.duoiimgtintuc{
+   position: center;
+    width: 250px;
+    font-size: medium;
+}
+.duoiimgtintuc > a:hover{
+    color: saddlebrown;
+}
+.nhanxetkhachhang{
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    padding-left: 30px;
+    margin-right: 90px;
+    height: 300px;
+}
+.hop1{
+    float left;
+    width: 100px;
+}
+.hop2{
+    float: left;
+    padding-top: 40px;
+}
+.hop3{
+    float: left;
+    padding-top: 40px;
+}
+.hop4{
+    float: left;
+    padding-top: 40px;
+}
+.hop5{
+    padding-top: 90px;
+    padding-left: 60px;
+
+}
+.nutbam{
+    background-color: #1B9E2C;
+    height: 30px;
+    color: white;
+}
+.hop01{
+    height: 85px;
+    width: 680px;
+    border: 1px solid #ffb400;
+}
+.hop02{
+    border: 1px solid #ffb400;
+    height: 40px;
+}
+.hop03{
+    border: 1px solid #ffb400;
+    height: 40px;
+}
+.hop04{
+    height: 40px;
+}
+
