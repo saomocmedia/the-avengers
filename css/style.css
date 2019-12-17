@@ -528,7 +528,7 @@ a.item4{
     color: red;
     font-size: 17px;
 }
-/*css layout tintuc*/
+/*css layout tintuc Lâm*/
 .layouttintuc{
     width: 100%;
 }
@@ -550,7 +550,7 @@ a.item4{
 a{
     color: #1B9E2C;
 }
-/*lay out blog*/
+/*lay out blog Lâm*/
 .layoutblog{
     width: 100%;
 }
@@ -558,10 +558,14 @@ a{
     float: left;
     width: 75%;
 }
+.anh:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
 .khunganh{
     float: left;
-    margin: 15px;
-    padding-left: 30px;
+    margin: 8px;
+    padding-left: 35px;
 }
 .duoiimgtintuc{
    position: center;
@@ -620,4 +624,5 @@ a{
 .hop04{
     height: 40px;
 }
+
 
