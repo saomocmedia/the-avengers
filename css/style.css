@@ -37,42 +37,6 @@ header .logo a{
     font-size: 30px;
     color: #565656;
 }
-footer.footer{
-    padding: 80px 0;
-    background-color: #0f0f0f;
-}
-.icon-footer{
-    font-size: 48px;
-    margin-right: 5px;
-}
-.title-footer{
-    font-size: 18px;
-    font-weight: 700;
-    color: #ff8c00;
-}
-.icon-footer a{
-    text-decoration: none;
-    transition: 300ms all ;
-    color: #999;
-}
-.icon-footer a:hover{
-    text-decoration: none;
-    transition: 300ms all ;
-    color: #ff8c00;
-}
-.link-footer a{
-    text-decoration: none;
-    transition: 300ms all ;
-    color: #999;
-}
-.link-footer a:hover{
-    tlinkext-decoration: none;
-    transition: 300ms all ;
-    color: #ff8c00;
-}
-.info-footer{
-    color: #999;
-}
 .banner-top img{
     float: left;
     width: 600px;
@@ -226,7 +190,7 @@ a.hinh{
     padding-left: 10px;
     text-align: center;
 }
-figcaption{
+.pen1 figcaption, .pen2 figcaption, .pen3 figcaption, .pen4 figcaption, .pen5 figcaption{
     text-align: center;
     font-size: 16px;
     padding-top: 5px;
@@ -623,9 +587,6 @@ a.item4{
 .khungphai >.box > a:hover{
     color: saddlebrown;
 }
-a{
-    color: #1B9E2C;
-}
 /*lay out blog Lâm*/
 .layoutblog{
     width: 100%;
@@ -700,5 +661,19 @@ a{
 .hop04{
     height: 40px;
 }
+.box > a{
+    color: #1B9E2C;
+}
+.duoiimgtintuc > a{
+    color: #1B9E2C;
+}
+.layouttintuc > .baiviet1 >p > a{
+    color: #1B9E2C;
+}
+.baiviet1 > h4 > a{
+    color: #1B9E2C;
+}
+
+
 
 
