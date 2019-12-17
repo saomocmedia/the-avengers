@@ -621,7 +621,18 @@ a.item4{
 .hop04{
     height: 40px;
 }
-
+.box > a{
+    color: #1B9E2C;
+}
+.duoiimgtintuc > a{
+    color: #1B9E2C;
+}
+.layouttintuc > .baiviet1 >p > a{
+    color: #1B9E2C;
+}
+.baiviet1 > h4 > a{
+    color: #1B9E2C ;
+}
 
 
 
