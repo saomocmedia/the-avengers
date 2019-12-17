@@ -13,9 +13,6 @@ body{
 li{
     list-style: none;
 }
-a{
-    text-decoration: none;
-}
 .section{
     float: left;
     width: 100%;
@@ -36,6 +33,42 @@ header .logo{
 header .logo a{
     font-size: 30px;
     color: #565656;
+}
+footer.footer{
+    padding: 80px 0;
+    background-color: #0f0f0f;
+}
+.icon-footer{
+    font-size: 48px;
+    margin-right: 5px;
+}
+.title-footer{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff8c00;
+}
+.icon-footer a{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #999;
+}
+.icon-footer a:hover{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #ff8c00;
+}
+.link-footer a{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #999;
+}
+.link-footer a:hover{
+    tlinkext-decoration: none;
+    transition: 300ms all ;
+    color: #ff8c00;
+}
+.info-footer{
+    color: #999;
 }
 .banner-top img{
     float: left;
@@ -179,7 +212,6 @@ a.hinh{
 }
 .mouse1, .mouse2, .mouse3, .mouse4, .mouse5, .mouse6{
     float: left;
-    text-align: center;
 }
 .mouse2, .mouse3, .mouse4, .mouse5, .mouse6{
     padding-left: 10px;
@@ -188,22 +220,25 @@ a.hinh{
     float: left;
     padding-top: 30px;
     padding-left: 10px;
-    text-align: center;
 }
-.pen1 figcaption, .pen2 figcaption, .pen3 figcaption, .pen4 figcaption, .pen5 figcaption{
+figcaption{
     text-align: center;
     font-size: 16px;
     padding-top: 5px;
     font-weight: bold;
 }
-figure a:hover{
-    text-decoration: none;
-    color: goldenrod;
-}
 #price{
     color: #ff0000;
     font-weight: bold;
     font-size: 17px;
+}
+c.buttom{
+    font-size: 13px;
+    color: white;
+    background-color: #ffb400;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
 .pen2{
     max-width: 1170px;
@@ -237,12 +272,6 @@ figure a:hover{
     height: 410px;
     padding-top: 30px;
 }
-.mouse .btn{
-    text-transform: uppercase;
-    border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .container .khoi{
     max-width: 175px;
     max-height: 175px;
@@ -260,11 +289,6 @@ figure a:hover{
     transform: scale(1.2);
     transition: 0.5s;
 }
-.mouse1:hover img,.mouse2:hover img,.mouse3:hover img,.mouse4:hover img,.mouse5:hover img,.mouse6:hover img,.mouse7:hover img,.mouse8:hover img{
-    transform: scale(1.2);
-    transition: 0.5s;
-}
-
 /* phan nay la ve chat facebook +hotline ben trai */
 .contactleft{
     position: fixed;
@@ -340,7 +364,6 @@ a.item4{
 }
 .contactright a:hover{
     color: dodgerblue;
-    text-decoration: none;
 }
 .contactright:hover{
     right: 0;
@@ -528,7 +551,7 @@ a.item4{
     color: red;
     font-size: 17px;
 }
-/*css layout tintuc Lâm*/
+/*css layout tintuc*/
 .layouttintuc{
     width: 100%;
 }
@@ -544,13 +567,9 @@ a.item4{
     border-left: 1px solid #ececec;
     padding-top: 15px;
 }
-.khungphai >.box > a:hover{
-    color: saddlebrown;
-}
 a{
     color: #1B9E2C;
 }
-/*lay out blog Lâm*/
 .layoutblog{
     width: 100%;
 }
@@ -558,71 +577,3 @@ a{
     float: left;
     width: 75%;
 }
-.anh:hover {
-    transition: 1s;
-    transform: scale(1.1);
-}
-.khunganh{
-    float: left;
-    margin: 8px;
-    padding-left: 35px;
-}
-.duoiimgtintuc{
-   position: center;
-    width: 250px;
-    font-size: medium;
-}
-.duoiimgtintuc > a:hover{
-    color: saddlebrown;
-}
-.nhanxetkhachhang{
-    background-color: #f2f2f2;
-    margin-top: 20px;
-    padding-left: 30px;
-    margin-right: 90px;
-    height: 300px;
-}
-.hop1{
-    float left;
-    width: 100px;
-}
-.hop2{
-    float: left;
-    padding-top: 40px;
-}
-.hop3{
-    float: left;
-    padding-top: 40px;
-}
-.hop4{
-    float: left;
-    padding-top: 40px;
-}
-.hop5{
-    padding-top: 90px;
-    padding-left: 60px;
-
-}
-.nutbam{
-    background-color: #1B9E2C;
-    height: 30px;
-    color: white;
-}
-.hop01{
-    height: 85px;
-    width: 680px;
-    border: 1px solid #ffb400;
-}
-.hop02{
-    border: 1px solid #ffb400;
-    height: 40px;
-}
-.hop03{
-    border: 1px solid #ffb400;
-    height: 40px;
-}
-.hop04{
-    height: 40px;
-}
-
-
