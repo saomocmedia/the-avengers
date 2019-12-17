@@ -37,6 +37,42 @@ header .logo a{
     font-size: 30px;
     color: #565656;
 }
+footer.footer{
+    padding: 80px 0;
+    background-color: #0f0f0f;
+}
+.icon-footer{
+    font-size: 48px;
+    margin-right: 5px;
+}
+.title-footer{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff8c00;
+}
+.icon-footer a{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #999;
+}
+.icon-footer a:hover{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #ff8c00;
+}
+.link-footer a{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #999;
+}
+.link-footer a:hover{
+    tlinkext-decoration: none;
+    transition: 300ms all ;
+    color: #ff8c00;
+}
+.info-footer{
+    color: #999;
+}
 .banner-top img{
     float: left;
     width: 600px;
@@ -188,9 +224,8 @@ a.hinh{
     float: left;
     padding-top: 30px;
     padding-left: 10px;
-    text-align: center;
 }
-.pen1 figcaption, .pen2 figcaption, .pen3 figcaption, .pen4 figcaption, .pen5 figcaption{
+figcaption{
     text-align: center;
     font-size: 16px;
     padding-top: 5px;
@@ -205,6 +240,7 @@ figure a:hover{
     font-weight: bold;
     font-size: 17px;
 }
+
 .pen2{
     max-width: 1170px;
     height: 410px;
@@ -568,7 +604,7 @@ a{
     padding-left: 35px;
 }
 .duoiimgtintuc{
-    position: center;
+   position: center;
     width: 250px;
     font-size: medium;
 }

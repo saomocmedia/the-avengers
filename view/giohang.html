@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <title>Gio Hang</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="vendors/bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/bootstrap3.3.7/css/bootstrap.css">
 </head>
 <body>
 <header class="section">
     <div class="container">
         <div class="logo">
-            <a href="#!"><img src="images/logo-tigersugar.png" alt=""></a>
+            <a href="#"><img src="../images/logo-tigersugar.png" alt=""></a>
         </div>
         <div class="banner-top">
-            <img src="images/banner-head.jpg" alt="">
+            <img src="../images/banner-head.jpg" alt="">
         </div>
         <div class="cart-icon">
 
@@ -25,135 +25,124 @@
         <div class="menu">
             <ul>
                 <li><a href="#">Trang chủ</a></li>
-                <li><a href="view/gioithieu.html" target="_blank">Giới thiệu</a></li>
-                <li><a href="view/menu.html" target="_blank">Menu</a></li>
-                <li><a href="view/blog.html" target="_blank">Tin tức</a></li>
-                <li><a href="view/lienhe.html" target="_blank">Liên hệ</a></li>
+                <li><a href="../view/gioithieu.html" target="_blank">Giới thiệu</a></li>
+                <li><a href="../view/menu.html" target="_blank">Menu</a></li>
+                <li><a href="../view/blog.html" target="_blank">Tin tức</a></li>
+                <li><a href="../view/lienhe.html" target="_blank">Liên hệ</a></li>
             </ul>
         </div>
     </div>
 </section>
-<section class="section">
-    <div class="container">
-        <div class="box-left">
-            <div class="box-middle">
-                <div class="box-1">
-                    <div class="box-a">
-                        <p>SAN PHAM</p>
-                    </div>
-                    <div class="box-b">
-                        <ul>
-                            <li>GIA</li>
-                            <li>SO LUONG</li>
-                            <li>TONG</li>
-                        </ul>
-                    </div>
+<section class="section xyz">
+    <div class="container-fluid">
+        <div class="box-left col-md-7">
+            <div class="box-1 col-md-12">
+                <div class="box-1-1 col-md-6">
+                    <p>SAN PHAM</p>
                 </div>
-                <div class="box-2">
-                    <div class="box-2-1">
-                        <div class="box-a">
-                            <div class="box-a-1">
-                                <img src="../images/01.png"/>
-                            </div>
-                            <div class="box-a-2">
-                                <p> duong nau Macchiato</p>
-                            </div>
-                        </div>
-                        <div class="box-b">
-                            <div class="box-b-1">
-                                <p>45.000</p>
-                            </div>
-                            <div class="box-b-2">
-                                <input type="button" value="-"/>
-                                <input type="number" id="quantity_5ddcc2f22cd3f" class="input-text qty text" step="1" min="0" max="9999" name="cart[a5bfc9e07964f8dddeb95fc584cd965d][qty]" value="1" title="SL" size="4" inputmode="numeric">
-                                <input type="button" value="+" >
-                            </div>
-                            <div class="box-b-3">
-                                <p>45.000</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box-3">
-                        <div class="box">
-                            <div class="box-a">
-                                <div class="box-a-1">
-                                    <a href="#">TIEP TUC XEM SAN PHAM</a>
-                                </div>
-                                <div class="box-a-2">
-                                    <a href="#">CAP NHAT GIO HANG</a>
-                                </div>
-                            </div>
-                            <div class="box-b">
-                                <h3>Ban Co The Thich...</h3>
-                            </div>
-                            <div class="box-c">
-                                <div class="box-c-1">
-                                    <figure>
-                                        <img src="../images/01.png"/>
-                                        <figcaption>Duong Nau Macchio</figcaption>
-                                    </figure>
-                                </div>
-                                <div class="box-c-2">
-                                    <p>45.000</p>
-                                </div>
-                            </div>
-                            <div class="box-d">
-                                <div class="box-d-1">
-                                    <a href="#">MUA NGAY</a>
-                                </div>
-                            </div>
-                        </div>
+                <div class="box-1-2 col-md-6">
+                    <ul>
+                        <li class="col-md-3">GIA</li>
+                        <li class="col-md-5">SO LUONG</li>
+                        <li class="col-md-4">TONG</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-2 col-md-12">
+                <div class="box-2-1 col-md-6">
+                    <figure>
+                        <img src="../images/01.png" class="img-rounded" alt="Cinque Terre" width="100" height="100">
+                        <figcaption>Duong nau den cheese</figcaption>
+                    </figure>
+                </div>
+                <div class="box-2-2 col-md-6">
+                    <ul>
+                        <li class="col-md-3">45.000</li>
+                        <li class="col-md-5">so luong</li>
+                        <li class="col-md-4">45.000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-3 col-md-12">
+                <div class="box-a col-md-4">
+                    <li>TIEP TUC XEM SAN PHAM</li>
+                </div>
+                <div class="box-b col-md-4" style="background-color: orange;text-align: center" >
+                    <li>CAP NHAT GIO HANG</li>
+                </div>
+            </div>
+            <div class="box-4 col-md-12">
+                <div class="box-a col-md-12">
+                    <p>Ban co the thich...</p>
+                </div>
+            </div>
+            <div class="box-5 col-md-4">
+                <div class="box-a col-md-12">
+                    <figure>
+                        <img src="../images/duong-nau-socola-mix.png" class="img-rounded" alt="Cinque Terre" width="160" height="160">
+                        <figcaption>Duong nau socola Mix</figcaption>
+                    </figure>
+                </div>
+                <div class="box-b col-md-12">
+                    <p>45.000</p>
+                </div>
+                <div class="box-c col-md-12">
+                    <div class="box-c-1">
+                        <li>MUA NGAY</li>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="box-right">
-            <div class="box">
-                <div class="box-1">
-                    <h3>Cong Gio Hang</h3>
-                </div>
-                <div class="box-2">
-                    <div class="box-a">
-                        <p>Tam Tinh</p>
-                    </div>
-                    <div class="box-b">
-                        <p>180.000</p>
-                    </div>
-                </div>
-                <div class="box-3">
-                    <div class="box-a">
-                        <p>Tong</p>
-                    </div>
-                    <div class="box-b">
-                        <p>180.000</p>
-                    </div>
-                </div>
-                <div class="box-4">
-                    <div class="box-4-1">
-                        <a href="#">Tien Hanh Thanh Toan</a>
-                    </div>
-                </div>
-                <div class="box-5">
-                    <div class="box-5-1">
-                        <h3>Phieu Uu Dai</h3>
-                    </div>
-                </div>
-                <div class="box-6">
-                    <div class="box-6-1">
-                        <p>Ma Uu dai </p>
-                    </div>
-                </div>
-                <div class="box-7">
-                    <div class="box-7-1">
-                        <p>Ap Dung</p>
-                    </div>
+        <div class="box-right col-md-5">
+            <div class="box-header col-md-12">
+                <div class="box-a col-md-12">
+                    <p> CONG GIO HANG</p>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container-1">
-        <div class="box">
-            <p>Thiet ke boi: Tiger Sugar   Nam</p>
+            <div class="box-produce col-md-12">
+                <div class="box-c col-md-10">
+                    <p>Tam Tinh</p>
+                </div>
+                <div class="box-d col-md-2">
+                    <p>45.000</p>
+                </div>
+            </div>
+            <div class="box-sum col-md-12">
+                <div class="box-a col-md-10">
+                    <p>Tong</p>
+                </div>
+                <div class="box-b col-md-2">
+                    <p>45.000</p>
+                </div>
+            </div>
+            <div class="box-4 col-md-12">
+                <div class="box-c col-md-12" style="text-align: center">
+                    <a href="thanhtoan.html">TIEN HANH THANH TOAN</a>
+                </div>
+            </div>
+            <div class="box-voucher col-md-12">
+                <div class="box-c col-md-12">
+                    <p><span class="glyphicon glyphicon-envelope"></span>PHIEU UU DAI</p>
+                </div>
+            </div>
+            <div class="box-6 col-md-12">
+                <div class="box-c col-md-12">
+                    <form>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="1" id="comment">Ma uu dai</textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="box-7 col-md-12">
+                <div class="box-a col-md-12">
+                    <form>
+                        <div class="form-group">
+                            <textarea class="form-control" style="text-align: center" rows="1" id="comment-1">Ap dung</textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </section>
