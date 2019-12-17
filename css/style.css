@@ -574,12 +574,12 @@ a.item4{
 }
 .baiviet1{
     float: left;
-    width: 75%;
+    width: 70%;
     padding-left: 65px;
     padding-top: 20px;
 }
 .khungphai {
-    width: 25%;
+    width: 30%;
     float: right;
     border-left: 1px solid #ececec;
     padding-top: 15px;
@@ -593,7 +593,7 @@ a.item4{
 }
 .tintucsukien{
     float: left;
-    width: 75%;
+    width: 70%;
 }
 .anh:hover {
     transition: 1s;
@@ -601,12 +601,12 @@ a.item4{
 }
 .khunganh{
     float: left;
-    margin: 8px;
-    padding-left: 35px;
+    margin: 40px;
+    padding-left: 40px;
 }
 .duoiimgtintuc{
-   position: center;
-    width: 250px;
+   position: absolute;
+    width: 190px;
     font-size: medium;
 }
 .duoiimgtintuc > a:hover{
