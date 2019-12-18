@@ -673,7 +673,11 @@ a.item4{
 .baiviet1 > h4 > a{
     color: #1B9E2C;
 }
-
-
-
-
+.boxcachfooter{
+    float: left;
+    margin-bottom: 50px;
+}
+.boxcachfooterblog{
+    float: left;
+    margin-bottom: 300px;
+}
