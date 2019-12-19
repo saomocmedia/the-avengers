@@ -27,20 +27,16 @@ a{
 header{
     background-color: #fff;
 }
-header .logo{
-    float: left;
-    width: 30%;
-    padding: 20px 0;
-    position: relative;
+.logo{
+    padding: 50px 0;
 }
 header .logo a{
     font-size: 30px;
     color: #565656;
 }
-.banner-top img{
-    float: left;
-    width: 600px;
-}
+.banner-top img, .logo img{
+     max-width: 100%;
+ }
 .menu{
     float: right;
     width: 100%;
@@ -54,9 +50,28 @@ header .logo a{
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .menu li a:hover{
     color: #7b7678;
+}
+.menu .hotline{
+    background-color: #dd3333;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    float: right;
+}
+.menu .hotline a{
+    color: white;
+    font-size: 15px;
+}
+.menu .hotline a:hover{
+    color: #ffff1e;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 300ms all;
 }
 .abc{
     background-color: #d2a521;
@@ -145,6 +160,42 @@ header .logo a{
     padding: 5px 15px;
     margin-top: 10px;
     border-radius: 2px;
+}
+footer.footer{
+    padding: 80px 0;
+    background-color: #0f0f0f;
+}
+.icon-footer{
+    font-size: 48px;
+    margin-right: 5px;
+}
+.title-footer{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff8c00;
+}
+.icon-footer a{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #999;
+}
+.icon-footer a:hover{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #ff8c00;
+}
+.link-footer a{
+    text-decoration: none;
+    transition: 300ms all ;
+    color: #999;
+}
+.link-footer a:hover{
+    tlinkext-decoration: none;
+    transition: 300ms all ;
+    color: #ff8c00;
+}
+.info-footer{
+    color: #999;
 }
 /*menu Hiep*/
 .pen1{
@@ -574,12 +625,12 @@ a.item4{
 }
 .baiviet1{
     float: left;
-    width: 75%;
+    width: 70%;
     padding-left: 65px;
     padding-top: 20px;
 }
 .khungphai {
-    width: 25%;
+    width: 30%;
     float: right;
     border-left: 1px solid #ececec;
     padding-top: 15px;
@@ -593,7 +644,7 @@ a.item4{
 }
 .tintucsukien{
     float: left;
-    width: 75%;
+    width: 70%;
 }
 .anh:hover {
     transition: 1s;
@@ -601,12 +652,12 @@ a.item4{
 }
 .khunganh{
     float: left;
-    margin: 8px;
-    padding-left: 35px;
+    margin: 40px;
+    padding-left: 40px;
 }
 .duoiimgtintuc{
-   position: center;
-    width: 250px;
+    position: absolute;
+    width: 190px;
     font-size: medium;
 }
 .duoiimgtintuc > a:hover{
@@ -672,6 +723,338 @@ a.item4{
 }
 .baiviet1 > h4 > a{
     color: #1B9E2C;
+}
+.boxcachfooter{
+    float: left;
+    margin-bottom: 50px;
+}
+.boxcachfooterblog{
+    float: left;
+    margin-bottom: 300px;
+}
+/*tien anh*/
+.container-fluid .box-left{
+    margin-top: 20px;
+    border-right: 2px solid #f2f2f2;
+}
+.container-fluid .box-left .box-1{
+    border-bottom: 3px solid #f2f2f2;
+}
+.container-fluid .box-left .box-1 .box-1-1 p{
+    font-weight: 600;
+    font-size: 17px;
+}
+.container-fluid .box-left .box-1 .box-1-2 li{
+    font-weight: 600;
+    font-size: 17px;
+}
+.container-fluid .box-left .box-2{
+    border-bottom: 2px solid #f2f2f2;
+}
+.container-fluid .box-left .box-2 .box-2-1{
+    margin: 15px 0;
+}
+.container-fluid .box-left .box-2 .box-2-1 img{
+    float: left;
+}
+.container-fluid .box-left  .box-2 .box-2-1 figcaption{
+    color: green;
+    float: left;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.container-fluid .box-left .box-2 .box-2-2{
+    margin-top: 60px;
+}
+.container-fluid .box-left .box-2 .box-2-2 li{
+    color: red;
+    font-size: 15px;
+    font-weight: 500;
+}
+.container-fluid .box-left .box-3 .box-a {
+    margin-top: 20px;
+    border: 2px solid green;
+}
+.container-fluid .box-left .box-3 .box-a li{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: green;
+}
+.container-fluid .box-left .box-3 .box-b{
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.container-fluid .box-left .box-3 .box-b li{
+    margin: 7px;
+    color: white;
+    font-size: 16px;
+}
+.container-fluid .box-left .box-4 .box-a{
+    margin-top: 30px;
+}
+.container-fluid .box-left .box-4 .box-a p{
+    font-size: 17px;
+    font-weight: 600;
+}
+.container-fluid .box-left .box-5 .box-a{
+    margin-top: 20px;
+}
+.container-fluid .box-left .box-5 .box-a figcaption{
+    color: green;
+    margin: 5px;
+}
+.container-fluid .box-left .box-5 .box-b{
+    margin-left: 60px;
+}
+.container-fluid .box-left .box-5 .box-b p{
+    font-weight: 600;
+    font-size: 15px;
+    color: red;
+}
+.container-fluid .box-left .box-5 .box-c{
+    height: 100px;
+}
+.container-fluid .box-left .box-5 .box-c .box-c-1{
+    background-color: darkorange;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 25px;
+}
+.container-fluid .box-left .box-5 .box-c .box-c-1 li{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+.container-fluid .box-right{
+    margin-top: 20px;
+}
+.container-fluid .box-right .box-header .box-a p{
+    font-size: 17px;
+    font-weight: 600;
+}
+.container-fluid .box-right .box-header{
+    border-bottom: 3px solid #f2f2f2;
+}
+.container-fluid .box-right .box-produce{
+    border-bottom: 3px solid #f2f2f2;
+}
+.container-fluid .box-right .box-produce .box-c p{
+    margin-top: 15px;
+}
+.container-fluid .box-right .box-produce .box-d p {
+    margin-top: 15px;
+    color: red;
+    font-weight: 500;
+
+}
+.container-fluid .box-right .box-sum{
+    border-bottom: 3px solid #f2f2f2;
+}
+.container-fluid .box-right .box-sum .box-a p{
+    margin-top: 10px;
+}
+.container-fluid .box-right .box-sum .box-b p {
+    margin-top: 10px;
+    color: red;
+    font-weight: 500;
+}
+.container-fluid .box-right .box-4 .box-c{
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: red;
+    padding: 5px ;
+}
+.container-fluid .box-right .box-4 .box-c a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.container-fluid .box-right .box-voucher p{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.container-fluid .box-right .box-voucher{
+    border-bottom: 3px solid #f2f2f2;
+}
+.container-fluid .box-right .box-6 .box-c{
+    margin-top: 15px;
+}
+.container-fluid .box-right .box-6 .box-c textarea{
+    border: 2px solid orange;
+}
+.container-fluid .box-right .box-7 .box-a textarea{
+    border: 2px solid orange;
+}
+/*tien anh thanh toan*/
+.headermin .box-1 {
+    margin-top: 30px;
+}
+.headermin .box-1 .box-a p{
+    color: black;
+    font-size: 17px;
+}
+.headermin .box-1 .box-b p{
+    color: green;
+    font-size: 17px;
+
+}
+.headermin .box-2 .box-a p{
+    color: black;
+    font-size: 17px;
+}
+.headermin .box-2 .box-b p{
+    color: green;
+    font-size: 17px;
+}
+
+.headerbig {
+    margin-top: 20px;
+}
+.headerbig .box-left .box-1{
+    border-top: 3px solid #f2f2f2;
+}
+.headerbig .box-left .box-1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border: darkorange;
+    border-radius: 5px;
+}
+.headerbig .box-left .box-1 textarea{
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+.headerbig .box-left .box-2 textarea{
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+.headerbig .box-left .box-2{
+    margin-top: 20px;
+}
+.headerbig .box-left .box-2 .box-a p{
+    font-weight: 600;
+    font-size: 16px;
+}
+.headerbig .box-right{
+    border: 2px solid #ff8c00;
+    border-radius: 5px;
+}
+.headerbig .box-right .box-1 .box-a{
+    margin-top: 20px;
+}
+.headerbig .box-right .box-1 .box-a p{
+    font-size: 17px;
+    font-weight: 600;
+}
+.headerbig .box-right .box-2 .box-a p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.headerbig .box-right .box-2 .box-b p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.headerbig .box-right .box-2 .box-a{
+    border-bottom: 3px solid #f2f2f2;
+}
+.headerbig .box-right .box-2 .box-b{
+    border-bottom: 3px solid #f2f2f2;
+}
+.headerbig .box-right .box-3 .box-a p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.headerbig .box-right .box-3 .box-b p{
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    margin-top: 10px;
+}
+.headerbig .box-right .box-3 .box-a{
+    border-bottom: 2px solid #f2f2f2;
+}
+.headerbig .box-right .box-3 .box-b{
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.headerbig .box-right .box-4 .box-a p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.headerbig .box-right .box-4 .box-b p{
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    margin-top: 10px;
+}
+.headerbig .box-right .box-4 .box-a{
+    border-bottom: 2px solid #f2f2f2;
+}
+.headerbig .box-right .box-4 .box-b{
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.headerbig .box-right .box-5 .box-a p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.headerbig .box-right .box-5 .box-b p{
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    margin-top: 10px;
+}
+.headerbig .box-right .box-5 .box-a{
+    border-bottom: 2px solid #f2f2f2;
+}
+.headerbig .box-right .box-5 .box-b{
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.headerbig .box-right .box-6 .box-a p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.headerbig .box-right .box-6 .box-b p{
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+    margin-top: 10px;
+}
+.headerbig .box-right .box-6 .box-a{
+    border-bottom: 3px solid #f2f2f2;
+}
+.headerbig .box-right .box-6 .box-b{
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.headerbig .box-right .pay{
+    margin-top: 10px;
+}
+.headerbig .box-right .pay .box-a{
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.headerbig .box-right .box-8{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.headerbig .box-right .box-8 .box-a-1{
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.headerbig .box-right .box-8 .box-a-1 a{
+    color: white;
+    text-decoration: none;
 }
 
 
